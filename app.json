@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "omenda-pi-pays",
+    "slug": "omenda-pi-pays",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.sam_ochu.omendapipays"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f780f53f-a65b-4a30-83d1-9d9a2700fa82"
+      }
+    },
+    "owner": "sam_ochu"
+  }
+}
