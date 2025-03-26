@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Omenda Pi Pays App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4a90e2, #1452a5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .download-container {
+            background-color: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .download-container h1 {
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            padding: 12px 24px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .download-btn:hover {
+            background-color: #1452a5;
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h1>Download Omenda Pi Pays APK</h1>
+        <p>Click the button below to download the latest version of the app.</p>
+        <button class="download-btn" onclick="downloadAPK()">Download Now</button>
+    </div>
+
+    <script>
+        function downloadAPK() {
+            // Replace this with your APK file URL
+            const apkUrl = 'https://yourwebsite.com/files/omenda-pi-pays.apk';
+            window.location.href = apkUrl;
+        }
+    </script>
+</body>
+</html>
