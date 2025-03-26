@@ -1,1 +1,0 @@
-alert("Omenda Pi Pays");
