@@ -11,11 +11,11 @@
     "android": {
       "package": "com.sam_ochu.omendapipays"
     },
+    "owner": "sam_ochu",
     "extra": {
       "eas": {
-        "projectId": "f780f53f-a65b-4a30-83d1-9d9a2700fa82"
+        "projectId": "60593767-2a65-4bf3-b8b9-76f0f29253b6"
       }
-    },
-    "owner": "sam_ochu"
+    }
   }
 }
